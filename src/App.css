@@ -1,0 +1,9 @@
+.background-img {
+  position: fixed;
+  width: 600px;
+  height: 450px;
+  top: calc(50vh - 225px);
+  opacity: 15%;
+  left: calc(50vw - 300px);
+  z-index: -1;
+}

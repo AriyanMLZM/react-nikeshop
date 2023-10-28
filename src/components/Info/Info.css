@@ -1,0 +1,46 @@
+.info-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.outer-div {
+  background-color: cornflowerblue;
+  width: 60vw;
+  height: 60vw;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px cornflowerblue;
+}
+.inner-div {
+  background-color: blueviolet;
+  width: 85%;
+  height: 85%;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2vw;
+  text-shadow: 0px 0px 30px #000;
+  box-shadow: 0 0 30px #000;
+  color: #fff;
+}
+.inner-div p {
+  text-align: center;
+}
+.inner-div p:nth-child(2) {
+  text-align: left;
+}
+.inner-div strong {
+  color: cornflowerblue;
+}
+.inner-div a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.inner-div a:hover {
+  color: #fff;
+}

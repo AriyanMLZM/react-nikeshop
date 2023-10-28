@@ -1,0 +1,147 @@
+.body-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-body {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+
+.item {
+  position: relative;
+  background-color: #1d1d1d;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  height: 180px;
+  margin-top: 40px;
+}
+.item-left {
+  border: 7px solid rgb(197, 136, 253);
+  border-left: none;
+  box-shadow: 5px 5px 10px #000;
+  border-radius: 0 30px 30px 0;
+  justify-content: right;
+}
+.item-right {
+  border: 7px solid rgb(119, 161, 240);
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+  box-shadow: -5px 5px 10px #000;
+  justify-content: left;
+}
+.item-left:hover {
+  transition-duration: 250ms;
+  box-shadow: 0 0 30px rgb(102, 43, 157) !important;
+  border-color: rgb(221, 185, 255);
+}
+.item-right:hover {
+  transition-duration: 250ms;
+  box-shadow: 0 0 30px rgb(97, 141, 223) !important;
+  border-color: rgb(167, 197, 255); 
+}
+
+.item img {
+  width: 170px;
+  height: 170px;
+}
+.item-left img{
+  margin-right: 20px;
+}
+.item-right img{
+  margin-left: 20px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;;
+}
+.item h2, .item h3 {
+  color: #fff;
+  font-size: 27px;
+  margin: 0px;
+}
+.item h3 {
+  font-size: 33px;
+  margin-top: 10px;
+}
+
+.ar-btn {
+  font-size: 35px;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0px 10px;
+  border-radius: 20px;
+  margin: 0px 4vw;
+}
+.ar-btn:hover {
+  color: #fff;
+}
+.add {
+  border: 3px solid #0dce54;
+  color: #0dce54;
+}
+.remove {
+  border: 3px solid #c93926;
+  color: #c93926;
+}
+@media(max-width: 900px) {
+  .body-sec {
+    flex-direction: column;
+  }
+  .sub-body {
+    width: 100%;
+  }
+  .item-left, .item-right {
+    justify-content: center;
+  }
+}
+@media(max-width: 600px) {
+  .circle {
+    font-size: 4.5vw;
+  }
+  #circle1 {
+    width: 35vw;
+    height: 35vw;
+    top: 20vh;
+    left: 40vw;
+  }
+  #circle2 {
+    width: 17vw;
+    height: 17vw;
+    top: 50vh;
+    right: 40vw;
+  }
+  #circle3 {
+    width: 18vw;
+    height: 18vw;
+    top: 5vh;
+    left: 36vw;
+  }
+  #circle4 {
+    width: 22vw;
+    height: 22vw;
+    top: 8vh;
+    right: 68vw;
+  }
+  #cart {
+    width: 20vw;
+    height: 20vw;
+    left: 71vw;
+    top: 8vh;
+    flex-direction: column;
+  }
+  #company-name {
+    font-size: 12vw;
+  }
+  #cart img {
+    width: 10vw;
+  }
+  #count {
+    font-size: 4vw;
+  }
+}

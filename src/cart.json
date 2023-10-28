@@ -1,0 +1,22 @@
+[
+  {
+    "title": "item 1",
+    "price": "$125",
+    "srcImg": "imgs/item1.png"
+  },
+  {
+    "title": "item 2",
+    "price": "$110",
+    "srcImg": "imgs/item2.png"
+  },
+  {
+    "title": "item 3",
+    "price": "$120",
+    "srcImg": "imgs/item3.png"
+  },
+  {
+    "title": "item 4",
+    "price": "$170",
+    "srcImg": "imgs/item4.png"
+  }
+]

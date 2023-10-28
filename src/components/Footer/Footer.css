@@ -1,0 +1,15 @@
+footer {
+  height: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+footer h1 {
+  color: #fff;
+  font-size: 2vw;
+}
+footer strong {
+  color: blueviolet;
+  font-size: 4vw;
+}

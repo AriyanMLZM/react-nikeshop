@@ -1,0 +1,102 @@
+[
+  {
+    "title": "item 1",
+    "price": "$125",
+    "srcImg": "imgs/item1.png"
+  },
+  {
+    "title": "item 2",
+    "price": "$110",
+    "srcImg": "imgs/item2.png"
+  },
+  {
+    "title": "item 3",
+    "price": "$120",
+    "srcImg": "imgs/item3.png"
+  },
+  {
+    "title": "item 4",
+    "price": "$170",
+    "srcImg": "imgs/item4.png"
+  },
+  {
+    "title": "item 5",
+    "price": "$130",
+    "srcImg": "imgs/item5.png"
+  },
+  {
+    "title": "item 6",
+    "price": "$70",
+    "srcImg": "imgs/item6.png"
+  },
+  {
+    "title": "item 7",
+    "price": "$90",
+    "srcImg": "imgs/item7.png"
+  },
+  {
+    "title": "item 8",
+    "price": "$110",
+    "srcImg": "imgs/item8.png"
+  },
+  {
+    "title": "item 9",
+    "price": "$130",
+    "srcImg": "imgs/item9.png"
+  },
+  {
+    "title": "item 10",
+    "price": "$125",
+    "srcImg": "imgs/item10.png"
+  },
+  {
+    "title": "item 11",
+    "price": "$110",
+    "srcImg": "imgs/item11.png"
+  },
+  {
+    "title": "item 12",
+    "price": "$120",
+    "srcImg": "imgs/item12.png"
+  },
+  {
+    "title": "item 13",
+    "price": "$170",
+    "srcImg": "imgs/item13.png"
+  },
+  {
+    "title": "item 14",
+    "price": "$130",
+    "srcImg": "imgs/item14.png"
+  },
+  {
+    "title": "item 15",
+    "price": "$70",
+    "srcImg": "imgs/item15.png"
+  },
+  {
+    "title": "item 16",
+    "price": "$90",
+    "srcImg": "imgs/item16.png"
+  },
+  {
+    "title": "item 17",
+    "price": "$110",
+    "srcImg": "imgs/item17.png"
+  },
+  {
+    "title": "item 18",
+    "price": "$130",
+    "srcImg": "imgs/item18.png"
+  },
+  {
+    "title": "item 19",
+    "price": "$110",
+    "srcImg": "imgs/item19.png"
+  },
+  {
+    "title": "item 20",
+    "price": "$130",
+    "srcImg": "imgs/item20.png"
+  }
+]
