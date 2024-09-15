@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import { useParallax } from 'react-scroll-parallax'
-import cartImg from '../../icones/cart-large-2-svgrepo-com.png'
+import { cartimg } from '../../icones'
 import DataContext from '../../context/DataContext'
 
 const Header = () => {
@@ -68,7 +68,7 @@ const Header = () => {
       <Link to="/Cart">
         <button onClick={() => handleClick('2')} type="button" id="cart" className={`circle ${active === '2' && 'active-div'}`}>
           <div id="count">{cart.length}</div>
-          <img src={cartImg} alt="" />
+          <img src={cartimg} alt="" />
         </button>
       </Link>
     </header>

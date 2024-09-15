@@ -2,7 +2,7 @@ import React from 'react'
 import './Login.css'
 import { Link } from 'react-router-dom'
 import Bg from '../Bg/Bg'
-import closeImg from '../../icones/🦆 icon _action cancel close delete exit remove x icon_.png'
+import { close } from '../../icones'
 
 const Login = () => {
   return (
@@ -12,13 +12,11 @@ const Login = () => {
         <div className="top">
           <img src="icons8-nike-50.png" alt="" />
           <Link to="/">
-            <img id="close-btn" src={closeImg} alt="" />
+            <img id="close-btn" src={close} alt="" />
           </Link>
         </div>
         <h2>Login</h2>
-        <div className="msg">
-          Welcome
-        </div>
+        <div className="msg">Welcome</div>
         <form className="form">
           <div className="inputBx">
             <input type="text" required />
@@ -29,9 +27,7 @@ const Login = () => {
             <i>Password</i>
           </div>
           <Link to="/Signup">
-            <div className="links">
-              Signup
-            </div>
+            <div className="links">Signup</div>
           </Link>
           <div className="inputBx">
             <button type="submit">Login</button>
