@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/AriyanMLZM/react-nikeshop/static/css/main.1353d253.css",
-    "main.js": "/AriyanMLZM/react-nikeshop/static/js/main.2ecfce4e.js",
-    "static/media/cartimg.png": "/AriyanMLZM/react-nikeshop/static/media/cartimg.295ad77af189b2b569f7.png",
-    "index.html": "/AriyanMLZM/react-nikeshop/index.html",
-    "main.1353d253.css.map": "/AriyanMLZM/react-nikeshop/static/css/main.1353d253.css.map",
-    "main.2ecfce4e.js.map": "/AriyanMLZM/react-nikeshop/static/js/main.2ecfce4e.js.map"
+    "main.css": "/react-nikeshop/static/css/main.1353d253.css",
+    "main.js": "/react-nikeshop/static/js/main.d6bd6163.js",
+    "static/media/cartimg.png": "/react-nikeshop/static/media/cartimg.295ad77af189b2b569f7.png",
+    "index.html": "/react-nikeshop/index.html",
+    "main.1353d253.css.map": "/react-nikeshop/static/css/main.1353d253.css.map",
+    "main.d6bd6163.js.map": "/react-nikeshop/static/js/main.d6bd6163.js.map"
   },
   "entrypoints": [
     "static/css/main.1353d253.css",
-    "static/js/main.2ecfce4e.js"
+    "static/js/main.d6bd6163.js"
   ]
 }
